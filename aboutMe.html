@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
-  <!-- bootstrap cdn -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- google fonts -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hind+Guntur">
@@ -17,8 +16,27 @@ body{
   font-family: 'Hind Guntur', sans-serif;
 }
 .navbar-default {
-  background-color: #1238a2;
-  border-color: none;
+    background-color: #1238a2;
+    border-color: none;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #1238a2;
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #1238a2;
+    background-color: white;
+    border: 1px solid #1238a2;
+}
+.navbar-default {
+    background-color: #1238a2;
+    border-color: none;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -51,11 +69,9 @@ body{
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #1238a2;
 }
+
 img{
   padding-top: 50px;
-}
-.info{
-  margin-top: 29px;
 }
 </style>
 </head>
@@ -70,14 +86,14 @@ img{
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Zachs Portfolio</a>
+          <a class="navbar-brand" href="index.html">Zach's Portfolio</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
         <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="internship.html">Internship</a></li>
-            <li><a href="aboutMe.html">About Me</a></li>
+            <li class="active"><a href="aboutMe.html">About Me</a></li>
         </ul>
         </div><!--/.nav-collapse -->
       </div> <!-- end of container -->
@@ -86,30 +102,13 @@ img{
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-4">
       <img class="img-responsive"src="img/1.png"/>
     </div>
-    <div class="col-lg-4 info">
-      <h1>Web Developer Internship</h1>
-      <h3>I attended a web developer internship in the Summer of 2016 and it was a remarkably exciting experience. Learning the...</h3>
-      <a href="internship.html">
-        <button type="button" class="btn btn-primary">Ream More</button>
-      </a>
-    </div>
-
     <div class="col-lg-8">
-      <img class="img-responsive"src="img/1.png"/>
+      <h1>About Me</h1>
+      <h3>I am a self taught front-end developer who works with  html, css, javascript,  Jquery, bootstrap, Linux and angular </h3>
     </div>
-    <div class="col-lg-4 info">
-      <h1>Header</h1>
-      <h3>this is just random text filler to check if it will fit in the box this is just random text filler to check if it will fit in the box this is just random text filler to check if it will fit in the box
- this is just random text filler to check if it will fit in the box...
-      </h3>
-      <a href="internship.html">
-        <button type="button" class="btn btn-primary">Ream More</button>
-      </a>
-    </div>
-
   </div>
 </div>
 
