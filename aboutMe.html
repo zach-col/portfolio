@@ -70,8 +70,31 @@ body{
   background-color: #1238a2;
 }
 
-img{
-  padding-top: 50px;
+/* adding padding to profile img only on lg screens */
+@media screen and (min-width: 480px) {
+        #profileImg {
+              padding-top: 50px;
+            }
+}
+@media screen and (max-width: 480px) {
+        #profileImg {
+                 margin: 0 auto;
+               }
+}
+@media screen and (min-width: 480px) {
+        #about {
+                 padding-top: 50px;
+               }
+}
+@media screen and (max-width: 480px) {
+        #about {
+                 text-align: center;
+               }
+}
+@media screen and (max-width: 480px) {
+        #aboutInfo {
+                 text-align: center;
+               }
 }
 </style>
 </head>
@@ -102,12 +125,12 @@ img{
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-4">
-      <img class="img-responsive"src="img/1.png"/>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <img  id="profileImg" class="img-responsive"src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAggAAAAJGU1ZTMzOWFhLThmNWMtNGI0OC05MzlkLTZiYzM2OTZlY2VmZA.jpg"/>
     </div>
-    <div class="col-lg-8">
-      <h1>About Me</h1>
-      <h3>I am a self taught front-end developer who works with  html, css, javascript,  Jquery, bootstrap, Linux and angular </h3>
+    <div class="col-lg-8 col-md-12 col-sm-12">
+      <h1 id="about">About Me</h1>
+      <h3 id="aboutInfo">I am a self taught front-end developer who works with  html, css, javascript,  Jquery, bootstrap, Linux and angular </h3>
     </div>
   </div>
 </div>
