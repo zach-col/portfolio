@@ -17,8 +17,26 @@ body{
   font-family: 'Hind Guntur', sans-serif;
 }
 .navbar-default {
-  background-color: #1238a2;
-  border-color: none;
+    background-color: #1238a2;
+    border-color: none;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #1238a2;
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #1238a2;
+    background-color: white;
+    border: 1px solid #1238a2;
+}
+.carousel-control.left .carousel-control.left {
+    background-image: none;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -51,12 +69,6 @@ body{
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #1238a2;
 }
-img{
-  padding-top: 50px;
-}
-.info{
-  margin-top: 29px;
-}
 </style>
 </head>
 <body>
@@ -75,12 +87,12 @@ img{
         <div id="navbar" class="navbar-collapse collapse">
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="aboutMe.html">About Me</a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfollio<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li class="active"><a href="internship.html">Internship</a></li>
-              <li><a href="veterans.html">Veterans's Hackathon</a></li>
+              <li><a href="internship.html">Internship</a></li>
+              <li class="active"><a href="veterans.html">Veterans's Hackathon</a></li>
               <li><a href="dreamCalculator.html">Dream Calculator</a></li>
             </ul>
           </li>
@@ -92,52 +104,24 @@ img{
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-8">
-      <img class="img-responsive"src="img/1.png"/>
-    </div>
-    <div class="col-lg-4 info">
-      <h1>Web Developer Internship</h1>
-      <h3>I attended a web developer internship in the Summer of 2016 and it was a remarkably exciting experience. Learning the...</h3>
-      <a href="internship.html">
-        <button type="button" class="btn btn-success">Read More</button>
-      </a>
-    </div>
-  </div><!-- end of row -->
-
-  <div class="row">
-    <div class="col-lg-8">
-      <img class="img-responsive"src="img/dreamCalculator.png"/>
-    </div>
-    <div class="col-lg-4 info">
-      <h1>Dream Calculator</h1>
-      <h3>
-        The Dream Calculator Det...
-      </h3>
-      <a href="dreamCalculator.html">
-        <button type="button" class="btn btn-success">Read More</button>
-      </a>
-    </div>
-  </div> <!-- end of row -->
-
-  <div class="row">
-    <div class="col-lg-8">
-      <img class="img-responsive"src="img/vet.png"/>
-    </div>
-    <div class="col-lg-4 info">
+    <div class="col-lg-12">
       <h1>Galvanize Hackathon for Veterans with PTSD</h1>
-      <h3>
-        Galvanize Hackathon for Veterans with PTSD
-      </h3>
-      <a href="veterans.html">
-        <button type="button" class="btn btn-success">Read More</button>
+      <h3>Galvanize Hackathon for Veterans with PTSD<h3>
+      <button type="button" class="btn btn-success">Visit Site</button>
+    </div>
+
+    <div class="col-lg-12">
+      <a href="http://zach-col.github.io/Galvanize-Va-Site/">
+        <img class="img-responsive" src="img/vet.png"/>
       </a>
     </div>
-  </div> <!-- end of row -->
 
+
+  </div><!-- end of row -->
 </div><!-- end of container -->
 
 
-
+</div>
       <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- bootstrap -->
