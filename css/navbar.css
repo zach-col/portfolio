@@ -1,0 +1,66 @@
+.navbar-default {
+  background-color: #1238a2;
+  border-color: none;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #1238a2;
+  background-color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #1238a2;
+  background-color: white;
+  border: 1px solid #1238a2;
+}
+.navbar-default {
+  background-color: #1238a2;
+  border-color: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #1238a2;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #555;
+  background-color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #1238a2;
+  background-color: white;
+}
+.dropdown-menu>li>a {
+  color: #23527c;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #23527c;
+    text-decoration: none;
+    background-color: #dcdcdc;
+}
+.navbar-default{
+    color: #23527c;
+}
+body{
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Hind Guntur', sans-serif;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0087ff;
+  outline: 0;
+}
