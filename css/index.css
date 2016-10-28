@@ -1,9 +1,6 @@
-.row{
-  margin-bottom: 61px;
+.projectImg{
+  margin-bottom: 50px;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 84px;
-}
+.btn-success {
+  margin-bottom: 83px;
+} 
