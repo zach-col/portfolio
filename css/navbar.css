@@ -67,3 +67,20 @@ body{
 .btn-success {
   margin-bottom: 83px;
 } 
+a {
+  color: white;
+  text-decoration: none;
+}
+.navLink{
+  color:#23527c;
+}
+@media only screen and (max-width: 767px) {
+    .navLink {
+      color: white;
+    }
+}
+.projectImg {
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #888888;
+}
