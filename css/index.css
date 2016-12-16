@@ -5,3 +5,19 @@
 .btn-success {
   margin-bottom: 83px;
 }
+.up{
+  position:fixed;
+  border-radius: 50%;
+  background-color: white;
+  right:10px;
+  bottom:10px;
+}
+.upImg{
+  height: 50px;
+  width: 50px;
+}
+#home{
+position: relative;
+height: 10px;
+top: -100px;
+}
