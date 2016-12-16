@@ -15,7 +15,6 @@
 </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -175,23 +174,12 @@
 
 
 
-      <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script>
-      $('a[href*="#"]:not([href="#"])').click(function(){
-          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname){
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-              if (target.length) {
-                  $('html, body').animate({
-                  scrollTop: target.offset().top
-                }, 2000);
-                return false;
-              }
-          }
-});
-</script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- smooth scroll -->
+    <script src="js/smoothScroll.js"></script>
+
 </body>
 </html>
