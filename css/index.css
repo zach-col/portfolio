@@ -5,6 +5,9 @@
 .btn-success {
   margin-bottom: 83px;
 }
+.btn{
+  border-radius: 74px;
+}
 .up{
   position:fixed;
   border-radius: 50%;
