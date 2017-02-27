@@ -24,3 +24,8 @@ position: relative;
 height: 10px;
 top: -100px;
 }
+@media only screen and (min-width:992px){
+  .projectImg {
+    margin-bottom: 125px;
+  }
+}
