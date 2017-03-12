@@ -38,13 +38,14 @@
   background-color: #1238a2;
 }
 @media only screen and (max-width: 767px) {
-    .navLink {
-      color: white;
-    }
+  .navLink {
+    color: white;
+  }
 }
 @media only screen and (max-width: 767px) {
-.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
-  background: #1d50de;
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+    background: #1d50de;
+  }
 }
 /* nav toggle*/
 .navbar-default .navbar-toggle {
@@ -65,7 +66,7 @@
 body{
   background-color: white;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   font-family: 'Hind Guntur', sans-serif;
 }
 .btn-success {
