@@ -36,3 +36,24 @@
   opacity:1;
   animation-delay:0.6s;
 }
+#headerContainer {
+  position: relative;
+  margin-bottom: 90px;
+}
+#headerText {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+#headerImg { 
+  width: 100%;
+  height: auto;
+  height: 400px;
+}
+#headerTyping, #headerTyping:hover , #headerTyping:active #headerTyping:focus #headerTyping:visited{
+  color: white;
+  text-decoration: none;
+}
+

@@ -54,6 +54,18 @@
     </nav>
 <div id="home">
 </div>
+
+<div id="headerContainer">
+  <img src="img/austin.jpg" id="headerImg">
+  <div id="headerText">
+    <h1>
+      <a href="" class="typewrite" id="headerTyping" data-period="2000" data-type='[ "Hello, Im Zachariah.", "a front-end developer", "who works with", "Html Css Javascript Jquery Bootstrap Angular" ]'>
+        <span class="wrap"></span>
+      </a>
+    </h1>
+  </div>
+</div>
+
 <div class="container">
 
   <div class="row post">
@@ -206,17 +218,19 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <!-- header text js -->
+    <script src="js/headerText.js"></script>
     <!-- viewport checker -->
     <script src="js/jquery.viewportchecker.min.js"></script>
     <!-- fade in scrolling effect -->
-<script>
-jQuery(document).ready(function() {
-    jQuery('.post').addClass(".hide_me").viewportChecker({
-        classToAdd: 'visible animated fadeIn',
-        offset: 5
-       });
-});
-</script>
+    <script>
+    jQuery(document).ready(function() {
+        jQuery('.post').addClass(".hide_me").viewportChecker({
+            classToAdd: 'visible animated fadeIn',
+            offset: 5
+        });
+    });
+    </script>
     <!-- bootstrap -->
     <script src="js/bootstrap.min.js"></script>
     <!-- smooth scroll -->
