@@ -20,12 +20,19 @@
   width: 50px;
 }
 #home{
-position: relative;
-height: 10px;
-top: -100px;
+  position: relative;
+  height: 10px;
+  top: -100px;
 }
 @media only screen and (min-width:992px){
   .projectImg {
     margin-bottom: 125px;
   }
+}
+.hide_me{
+  opacity:0;
+}
+.visible{
+  opacity:1;
+  animation-delay:0.6s;
 }
