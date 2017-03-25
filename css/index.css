@@ -47,14 +47,13 @@
 #headerText {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 30%;
   width: 100%;
   text-align: center;
 }
 #headerImg { 
   width: 100%;
-  height: auto;
-  height: 400px;
+  height: 100vh;
 }
 #headerTyping, #headerTyping:hover , #headerTyping:active #headerTyping:focus #headerTyping:visited{
   color: white;
