@@ -29,9 +29,14 @@
 #headerText {
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 15%;
   width: 100%;
   text-align: center;
+}
+#headerTopText{
+  text-decoration: none;
+  color: white;
+
 }
 #headerImg { 
   width: 100%;
