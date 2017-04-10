@@ -73,3 +73,14 @@ body{
 .btn-success {
   margin-bottom: 83px;
 }
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+a:focus{
+  color: white;
+  text-decoration: underline;
+}

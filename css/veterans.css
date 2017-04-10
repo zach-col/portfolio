@@ -1,0 +1,18 @@
+#dcVideo {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 375px) {
+    #dcVideo {
+      width: 100%;
+    }
+}
+.dcHeader, #imgHeader{
+  text-align: center;
+}
+#imgHeader{
+  margin-top: 50px;
+}
