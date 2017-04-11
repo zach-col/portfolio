@@ -16,3 +16,17 @@
 #imgHeader{
   margin-top: 50px;
 }
+#veteransLink{
+  margin-top: 20px;
+}
+#imgLink{
+  color: blue;
+}
+#imgLink:hover{
+  color: blue;
+  text-decoration: underline;
+}
+#imgLink:focus{
+  color: blue;
+  text-decoration: underline;
+}
