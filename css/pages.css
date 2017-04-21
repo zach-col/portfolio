@@ -1,7 +1,15 @@
 .projectImg {
   margin-bottom: 50px;
+  margin-top: 20px;
   box-shadow: 10px 10px 5px #888888;
 }
 .btn{
   border-radius: 74px;
 }
+.visitSite{
+  color: white;
+  background-color: #5cb85c;
+  padding: 1px 4px 1px 4px;
+  border-radius: 36px;
+  margin-bottom: 20px;
+} 
