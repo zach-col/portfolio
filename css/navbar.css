@@ -1,86 +1,65 @@
-.navbar-default {
-  background-color: #1238a2;
-  border-color: #1238a2;
-}
-.navbar-default .navbar-brand {
-  color: white;
-}
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: lightblue;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #1238a2;
-  background: white;
-}
-.navbar-default .navbar-nav>li>a {
-  color: white;
-}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: lightblue;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  color: #1238a2;
-  background-color: white;
-}
-.dropdown-menu>li>a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: 400;
-  line-height: 1.42857143;
-  color: #1238a2;
-  white-space: nowrap;
-}
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  color: lightblue;
-  text-decoration: none;
-  background-color: #1238a2;
-}
-@media only screen and (max-width: 767px) {
-  .navLink {
-    color: white;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
-    background: #1d50de;
-  }
-}
-/* nav toggle*/
-.navbar-default .navbar-toggle {
-  border-color: white;
-}
-.navbar-toggle {
-  border: 1px solid transparent;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #1d50de;
-}
-.active{
-  background: white;
-}
 body{
   background-color: white;
   margin-top: 41px;
   margin-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
+/* view site button */
 .btn-success {
   margin-bottom: 83px;
 }
-a{
+/* changing navbar color*/
+.navbar-inverse {
+  background-color: black;
+  border-color: black;
+}
+/* navbar brand*/
+.navbar-inverse .navbar-brand {
   color: white;
 }
-a:hover{
-  color: white;
-  text-decoration: underline;
+/* navbar brand focus hover */
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: grey;
+  background-color: transparent;
 }
-a:focus{
+/* changing navbar link colors */
+.navbar-inverse .navbar-nav>li>a {
   color: white;
-  text-decoration: underline;
+}
+/* navbar link focus, hover */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+/* navbar dropdown background color */
+.dropdown-menu {
+  background-color: black;
+}
+/* dropdown menu links */
+.dropdown-menu>li>a {
+  color: white;
+}
+/* li dropdown hover focus */
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: grey;
+  text-decoration: none;
+  background-color: black;
+}
+/* dropdown menu active*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: grey;
+}
+/* mobile dropdown color */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
+}
+/* mobile dropdown hover focus */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+/* mobile dropdown link background color */
+.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+  color: #fff;
+  background-color: grey;
 }

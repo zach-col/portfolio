@@ -1,8 +1,10 @@
+/* profile img */
 #profileImg{
   display: block;
   margin: 0 auto;
   margin-top: 40px;
 }
+/* img info */
 .textCenter{
   text-align: center;
   margin-top: 25px;
