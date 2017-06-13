@@ -9,3 +9,11 @@
   text-align: center;
   margin-top: 25px;
 }
+/* success progress bar */
+.progress-bar-success{
+  font-size: 15px;
+}
+/* changing progress height*/
+.progress{
+  height: 26px;
+}
